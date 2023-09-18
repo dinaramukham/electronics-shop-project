@@ -13,3 +13,6 @@ def tests_Item_calculate_total_price(item_zero ):
     assert item_zero.calculate_total_price()  ==200000
 def tests_Item_apply_discount(item_zero ):
     assert item_zero.apply_discount() == 10000
+def tests_Item_repr(item_zero ):
+    assert repr(item_zero) =="Item('Смартфон', 10000, 20)"
+    assert str(item_zero ) == 'Смартфон'
