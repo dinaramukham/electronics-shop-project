@@ -1,4 +1,4 @@
-from src.item import Item  #/Users/dinara/PycharmProjects/electronics-shop-project/src/item.py
+from src.item import Item  
 from src.phone import Phone
 
 if __name__ == '__main__':
