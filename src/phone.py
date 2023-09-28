@@ -12,9 +12,6 @@ class Phone(Item):
     def __repr__(self):
         return f"Phone('{self.name}', {self.price}, {self.number_of_sim}, {self.quantity})"
 
-    def __str__(self):
-        return f"{self.name}"
-
     def __add__(self, other):
         if not isinstance(other, (Item, Phone)):
             raise ValueError("Справа от плюса классы Item или Phone")
